@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Logo {
+    width: 60px;
+    margin-right: 10px; /* Menyesuaikan margin dari kiri ke kanan */
+}
+
+.header .header-logo button {
+    display: flex;
+    align-items: center;
+    background-color: #fff; /* Menyesuaikan warna latar belakang */
+    border: 1px solid #ccc; /* Menambahkan batas untuk keterlihatan yang lebih baik */
+    padding: 5px; /* Menyesuaikan padding */
+}
+
+.header .header-logo h1 {
+    margin-left: 10px; /* Menambahkan margin untuk memisahkan teks dari logo */
+}
+.header .header-logo h6{
+    margin: 10px;
+}
+
+.header .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-right button {
+    margin-left: 10px;
+}
+
+.isi .about-cos {
+    text-align: center; /* Pusatkan teks secara horizontal */
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('font/coolvetical/rg.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
